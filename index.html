@@ -4,29 +4,21 @@
   <meta charset="UTF-8">
   <title>Lista de Tarefas OO</title>
   <link rel="stylesheet" href="style.css">
-
-  <style>
-   
-  </style>
 </head>
 <body>
 
   <h1> 📒 Minhas Tarefas</h1>
 
-  <!-- Campo de entrada -->
   <input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
-  <button onclick="app.adicionarTarefa()"!>Adicionar</button>
+  <button onclick="app.adicionarTarefa()">Adicionar</button>
 
-  <div id="contador">f
-  <p>Inconcluidas: <span id="qtdAbertas">2</span></p>
-  <p>Concluídas: <span id="qtdConcluidas">5</span></p>
-</div>
+  <div id="contador">
+    <p>Inconcluídas: <span id="qtdAbertas">0</span></p>
+    <p>Concluídas: <span id="qtdConcluidas">0</span></p>
+  </div>
 
-<ul id="lista"></ul>
-  <!-- Lista -->
   <ul id="lista"></ul>
 
   <script src="script.js"></script>
-
 </body>
 </html>

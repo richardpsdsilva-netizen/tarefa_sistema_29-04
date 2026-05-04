@@ -1,36 +1,59 @@
 body {
-      font-family: Arial;
-      background: #121212;
-      color: white;
-      text-align: center;
-    }
+  font-family: Arial;
+  background: #000000;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
-    input {
-      padding: 10px;
-      width: 200px;
-    }
+input {
+  padding: 10px;
+  width: 200px;
+}
 
-    button {
-      padding: 10px;
-      margin-left: 5px;
-      cursor: pointer;
-    }
+button {
+  padding: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-    li {
-      background: #1e1e1e;
-      margin: 10px auto;
-      padding: 10px;
-      width: 300px;
-      display: flex;
-      justify-content: space-between;
-    }
+li {
+  background: #1e1e1e;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
 
-    .concluida {
-      text-decoration: line-through;
-      color: gray;
-    }
+.concluida {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Estilo padrão da tarefa (Aberta) */
+#lista li span {
+  color: #ff0000;
+  /* Um azul escuro acinzentado */
+  font-size: 18px;
+}
+
+#contador {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+#qtdAbertas {
+  color: #e74c3c;
+  /* Vermelho para pendentes */
+}
+
+#qtdConcluidas {
+  color: #27ae60;
+  /* Verde para concluídas */
+}
